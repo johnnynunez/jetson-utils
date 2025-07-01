@@ -12,7 +12,7 @@ elseif(LSB_RELEASE_CODENAME MATCHES "jammy")
 elseif(LSB_RELEASE_CODENAME MATCHES "focal")
 	set(PYTHON_BINDING_VERSIONS 3.8)
 else()
-	set(PYTHON_BINDING_VERSIONS 2.7 3.6 3.7 3.8 3.10 3.12)
+	set(PYTHON_BINDING_VERSIONS 2.7 3.6 3.7 3.8 3.10 3.12 3.13 3.14)
 endif()
 
 message("-- trying to build Python bindings for Python versions:  ${PYTHON_BINDING_VERSIONS}")
